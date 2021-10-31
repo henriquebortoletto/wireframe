@@ -1,0 +1,39 @@
+h1, h2, h3 {
+  font-family: var(--brand-font-secondary);
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: -0.1rem;
+  color: var(--brand-color-white);
+}
+
+h1 {
+  font-size: 4.8rem;
+  color: var(--brand-color-gray-900);
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+.btn {
+  font-family: var(--brand-font-secondary);
+  font-weight: 600;
+  letter-spacing: -0.001rem;
+  color: var(--brand-color-gray-900);
+  background-color: var(--brand-color-pink-500);
+  padding: 1.2rem 3.4rem;
+}
+
+.menu-item {
+  font-family: var(--brand-font-secondary);
+  font-size: 1.5rem;
+  line-height: 105%;
+  letter-spacing: -0.001rem;
+  color: var(--brand-color-gray-500);
+  background-color: var(--brand-color-gray-200);
+  padding: 1.2rem 2.4rem;
+}
