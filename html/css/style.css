@@ -77,3 +77,97 @@ header .menu-mobile {
   justify-content: center;
   align-items: center;
 }
+
+/* @section section s-main */
+.s-main {
+  background-color: var(--brand-color-gray-900);
+  padding-top: 10.4rem;
+  padding-bottom: 12rem;
+}
+
+.s-main p {
+  color: var(--brand-color-white);
+}
+
+.s-main .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.s-main .info.center {
+  align-items: center;
+}
+
+.s-main .info h2 {
+  margin-bottom: .8rem;
+}
+
+.s-main-block-top {
+  border-bottom: .1rem solid rgba(255, 255, 255, .25);
+  padding-bottom: 12.2rem;
+}
+
+.s-main-block-top .cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4.8rem;
+}
+
+.s-main-block-top .card {
+  background-color: rgba(28, 29, 31, .5);
+  width: 100%;
+  max-width: 38.4rem;
+  height: 38.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-main-block-top .card-info {
+  text-align: center;
+  max-width: 28.8rem;
+  margin-top: 4rem;
+}
+
+.s-main-block-top .card-info p {
+  line-height: 150%;
+  color: rgba(255, 255, 255, .7);
+  margin-top: .8rem;
+}
+
+.s-main-block-top .card.light {
+  background-color: var(--brand-color-white);
+}
+
+.s-main-block-top .card.light .card-info h3 {
+  color: var(--brand-color-gray-900);
+}
+
+.s-main-block-top .card.light .card-info p {
+  color: var(--brand-color-gray-700);
+}
+
+.s-main-block-bottom .info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 11.2rem;
+  margin-bottom: 5.6rem;
+}
+
+.s-main-block-bottom .gallery-image {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.2rem;
+}
+
+.s-main-block-bottom .image {
+  background-color: var(--brand-color-gray-800);
+  width: 100%;
+  max-width: 17.6rem;
+  height: 11.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
