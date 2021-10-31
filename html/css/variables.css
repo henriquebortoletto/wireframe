@@ -1,6 +1,16 @@
 :root {
   --brand-font-primary: 'Inter', sans-serif;
   --brand-font-secondary: 'Sora', sans-serif;
+
+  --brand-color-pink-500: #F67ACB;
+
+  --brand-color-gray-100: #F7F8FA;
+  --brand-color-gray-200: #E6EBF2;
+  --brand-color-gray-500: #5C6066;
+  --brand-color-gray-700: #393C40;
+  --brand-color-gray-800: #1C1D1F;
+  --brand-color-gray-900: #050110;
+
   --brand-color-white: #FFF;
   --brand-color-black: #000;
 }
