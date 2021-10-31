@@ -100,7 +100,8 @@
   }
 
   .s-hero,
-  .s-main {
+  .s-main,
+  .s-blockquote {
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
