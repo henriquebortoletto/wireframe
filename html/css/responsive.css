@@ -1,0 +1,63 @@
+@media (max-width: 1200px) {
+  .s-hero .info {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 991px) {
+  header .menu-mobile {
+    display: block;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  .s-hero .container {
+    flex-direction: column;
+  }
+
+  .s-hero .info {
+    max-width: 100%;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .s-hero .info h1,
+  .s-hero .info p {
+    text-align: center;
+  }
+
+  .s-hero .wallpaper {
+    height: 40rem;
+  }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 600px) {}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 50%;
+  }
+
+  h1 {
+    font-size: 4.2rem;
+  }
+
+  header .logo {
+    max-width: 13rem;
+  }
+
+  .s-hero {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .s-hero .info p {
+    margin-bottom: 3rem;
+  }
+}
