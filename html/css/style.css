@@ -1,6 +1,11 @@
 /* @section header */
 header {
+  width: 100%;
   background-color: var(--brand-color-gray-100);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 
 header .container {
@@ -33,6 +38,11 @@ header nav .btn {
 
 header .menu-mobile {
   display: none;
+}
+
+/* @section main */
+main {
+  margin-top: 8.8rem;
 }
 
 /* @section section s-hero */
@@ -256,6 +266,11 @@ footer {
   font-size: 1.4rem;
   line-height: 105%;
   color: rgba(255, 255, 255, .7);
+  transition: color .3s;
+}
+
+.s-footer-block-top-area-nav a:hover {
+  color: var(--brand-color-white);
 }
 
 .s-footer-block-top-area-nav .social-networks a {

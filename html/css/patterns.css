@@ -26,6 +26,11 @@ h3 {
   color: var(--brand-color-gray-900);
   background-color: var(--brand-color-pink-500);
   padding: 1.2rem 3.4rem;
+  transition: transform .3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
 }
 
 .menu-item {
@@ -36,4 +41,10 @@ h3 {
   color: var(--brand-color-gray-500);
   background-color: var(--brand-color-gray-200);
   padding: 1.2rem 2.4rem;
+  transition: all .3s;
+}
+
+.menu-item:hover {
+  background-color: var(--brand-color-gray-700);
+  color: var(--brand-color-white);
 }
