@@ -1,3 +1,3 @@
-const App = () => React.createElement('h1', {}, 'Meu primeiro app com React')
+const App = () => <h1>Meu primeiro app com React</h1>
 
-ReactDOM.render(App(), document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById('root'))
