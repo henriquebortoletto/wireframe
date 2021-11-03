@@ -1,3 +1,7 @@
-const App = () => <h1>Meu primeiro app com React</h1>
+import React from 'react'
 
-ReactDOM.render(<App />, document.getElementById('root'))
+const App = () => {
+  return React.createElement('h1', null, 'Primeiro App com React 2')
+}
+
+export default App
