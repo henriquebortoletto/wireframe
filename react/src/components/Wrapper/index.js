@@ -2,6 +2,7 @@ import React from 'react'
 
 import Hero from '../Hero'
 import Main from '../Main'
+import Newsletter from '../Newsletter'
 
 import './styles.scss'
 
@@ -10,6 +11,7 @@ const Wrapper = () => {
     <main>
       <Hero />
       <Main />
+      <Newsletter />
     </main>
   )
 }

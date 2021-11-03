@@ -1,12 +1,11 @@
 import React from 'react'
 
+import './styles.scss'
+
 const Menu = () => {
   return (
     <ul>
-      <li><a href="./" className="menu-item">Menu item</a></li>
-      <li><a href="./" className="menu-item">Menu item</a></li>
-      <li><a href="./" className="menu-item">Menu item</a></li>
-      <li><a href="./" className="menu-item">Menu item</a></li>
+      {[...Array(4)].map((item, indice) => <li key={ indice }><a href="./" className="menu-item">Menu item</a></li>)}
     </ul>
   )
 }

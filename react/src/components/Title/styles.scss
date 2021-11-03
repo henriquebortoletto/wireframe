@@ -1,1 +1,13 @@
 @import '../../sass/variables';
+
+.info {
+  display: flex;
+  flex-direction: column;
+  h2 {
+    margin-bottom: .8rem;
+  }
+}
+
+.info.center {
+  align-items: center;
+}

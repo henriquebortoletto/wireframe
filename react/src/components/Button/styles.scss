@@ -1,0 +1,14 @@
+@import '../../sass/variables';
+
+.btn {
+  font-family: $brand-font-secondary;
+  font-weight: 600;
+  letter-spacing: -0.001rem;
+  color: $brand-color-gray-900;
+  background-color: $brand-color-pink-500;
+  padding: 1.2rem 3.4rem;
+  transition: transform .3s;
+  &:hover {
+    transform: scale(1.05);
+  }
+}

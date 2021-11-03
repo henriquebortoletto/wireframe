@@ -8,18 +8,6 @@
   p {
     color: $brand-color-white;
   }
-
-  .info {
-    display: flex;
-    flex-direction: column;
-    h2 {
-      margin-bottom: .8rem;
-    }
-  }
-
-  .info.center {
-    align-items: center;
-  }
 }
 
 .s-main-block-top {

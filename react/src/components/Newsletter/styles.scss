@@ -1,0 +1,30 @@
+@import '../../sass/variables';
+
+.s-newsletter {
+  background-color: $brand-color-gray-800;
+  padding-top: 15.2rem;
+  padding-bottom: 15.2rem;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  h2 {
+    margin-bottom: 2rem;
+  }
+
+  p {
+    text-align: center;
+    color: rgba(255, 255, 255, .7);
+    line-height: 150%;
+    max-width: 69.4rem;
+    margin-bottom: 4rem;
+  }
+
+  .btn {
+    padding: 1.75rem 3.85rem;
+  }
+}

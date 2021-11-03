@@ -18,33 +18,3 @@ h2 {
 h3 {
   font-size: 2.4rem;
 }
-
-.btn {
-  font-family: $brand-font-secondary;
-  font-weight: 600;
-  letter-spacing: -0.001rem;
-  color: $brand-color-gray-900;
-  background-color: $brand-color-pink-500;
-  padding: 1.2rem 3.4rem;
-  transition: transform .3s;
-}
-
-.btn:hover {
-  transform: scale(1.05);
-}
-
-.menu-item {
-  font-family: $brand-font-secondary;
-  font-size: 1.5rem;
-  line-height: 105%;
-  letter-spacing: -0.001rem;
-  color: $brand-color-gray-500;
-  background-color: $brand-color-gray-200;
-  padding: 1.2rem 2.4rem;
-  transition: all .3s;
-}
-
-.menu-item:hover {
-  background-color: $brand-color-gray-700;
-  color: $brand-color-white;
-}

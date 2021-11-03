@@ -2,6 +2,8 @@ import React from 'react'
 
 import Title from '../Title'
 import Card from '../Card'
+import Button from '../Button'
+import Thumb from '../Thumb'
 
 import './styles.scss'
 
@@ -22,50 +24,12 @@ const Main = () => {
 
         <div className="s-main-block-bottom">
           <div className="info-wrapper">
-            <div className="info">
-              <h2>Título</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <button className="btn">Call to action</button>
+            <Title name="info" />
+            <Button name="btn" title="Call to action" />
           </div>
 
           <div className="gallery-image">
-            <div className="image">
-              <img src="./img/icon-thumb.svg" alt="Imagem da seção de galeria" title="Imagem da seção de galeria" />
-            </div>
-            <div className="image">
-              <img src="./img/icon-thumb.svg" alt="Imagem da seção de galeria" title="Imagem da seção de galeria" />
-            </div>
-            <div className="image">
-              <img src="./img/icon-thumb.svg" alt="Imagem da seção de galeria" title="Imagem da seção de galeria" />
-            </div>
-            <div className="image">
-              <img src="./img/icon-thumb.svg" alt="Imagem da seção de galeria" title="Imagem da seção de galeria" />
-            </div>
-            <div className="image">
-              <img src="./img/icon-thumb.svg" alt="Imagem da seção de galeria" title="Imagem da seção de galeria" />
-            </div>
-            <div className="image">
-              <img src="./img/icon-thumb.svg" alt="Imagem da seção de galeria" title="Imagem da seção de galeria" />
-            </div>
-            <div className="image">
-              <img src="./img/icon-thumb.svg" alt="Imagem da seção de galeria" title="Imagem da seção de galeria" />
-            </div>
-            <div className="image">
-              <img src="./img/icon-thumb.svg" alt="Imagem da seção de galeria" title="Imagem da seção de galeria" />
-            </div>
-            <div className="image">
-              <img src="./img/icon-thumb.svg" alt="Imagem da seção de galeria" title="Imagem da seção de galeria" />
-            </div>
-            <div className="image">
-              <img src="./img/icon-thumb.svg" alt="Imagem da seção de galeria" title="Imagem da seção de galeria" />
-            </div>
-            <div className="image">
-              <img src="./img/icon-thumb.svg" alt="Imagem da seção de galeria" title="Imagem da seção de galeria" />
-            </div>
-            <div className="image">
-              <img src="./img/icon-thumb.svg" alt="Imagem da seção de galeria" title="Imagem da seção de galeria" />
-            </div>
+            {[...Array(12)].map((_, indice) => <Thumb keys={ indice } />)}
           </div>
         </div>
       </div>
