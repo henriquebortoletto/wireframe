@@ -11,16 +11,16 @@ import './styles.scss'
 const Footer = () => {
   return (
     <footer>
-      <div class="container">
+      <div className="container">
       
-        <div class="s-footer-block-top">
-          <div class="s-footer-block-top-area-logo">
+        <div className="s-footer-block-top">
+          <div className="s-footer-block-top-area-logo">
             <a href="./"><Logo /></a>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nunc orci, eleifend eu porta eu, viverra.</p>
           </div>
 
-          <nav class="s-footer-block-top-area-nav">
-            <div class="list-pages">
+          <nav className="s-footer-block-top-area-nav">
+            <div className="list-pages">
               <h3>Lista de páginas</h3>
               <ul>
                 <li><a href="./">Text link 01</a></li>
@@ -30,7 +30,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div class="solutions">
+            <div className="solutions">
               <h3>Soluções</h3>
               <ul>
                 <li><a href="./">Text link 01</a></li>
@@ -38,7 +38,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div class="social-networks">
+            <div className="social-networks">
               <h3>Nossas redes sociais</h3>
               <ul>
                 <li><a href="./"><Instagram /><span>Instagram</span></a></li>
@@ -49,9 +49,9 @@ const Footer = () => {
           </nav>
         </div>
 
-        <div class="s-footer-block-bottom">
+        <div className="s-footer-block-bottom">
           <p>2021 &copy; Todos os direitos reservados. <strong>Codeboost</strong></p>
-          <div class="boost"><span>Grupo</span><Boost /></div>
+          <div className="boost"><span>Grupo</span><Boost /></div>
         </div>
       </div>
     </footer>

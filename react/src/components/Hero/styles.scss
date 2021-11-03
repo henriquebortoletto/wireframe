@@ -1,0 +1,43 @@
+@import '../../sass/variables';
+
+.s-hero {
+  padding-top: 7.2rem;
+  padding-bottom: 7.2rem;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .info {
+    width: 100%;
+    max-width: 64rem;
+    h1 {
+      margin-bottom: 2rem;
+    }
+
+    p {
+      font-size: 1.8rem;
+      line-height: 150%;
+      color: $brand-color-gray-700;
+      max-width: 48.8rem;
+      margin-bottom: 5.6rem;
+    }
+
+    .btn {
+      padding: 1.75rem 3.45rem;
+    }
+  }
+
+  .wallpaper {
+    background-color: $brand-color-gray-100;
+    width: 100%;
+    max-width: 48.8rem;
+    height: 49.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+

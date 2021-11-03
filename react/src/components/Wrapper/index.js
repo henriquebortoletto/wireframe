@@ -1,13 +1,15 @@
 import React from 'react'
 
+import Hero from '../Hero'
+
 import './styles.scss'
 
-const Main = () => {
+const Wrapper = () => {
   return (
     <main>
-      
+      <Hero />
     </main>
   )
 }
 
-export default Main
+export default Wrapper

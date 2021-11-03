@@ -2,7 +2,7 @@ import React from 'react'
 
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Main from './components/Main'
+import Wrapper from './components/Wrapper'
 
 import './styles.scss'
 
@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <Main />
+      <Wrapper />
       <Footer />
     </>
   )
