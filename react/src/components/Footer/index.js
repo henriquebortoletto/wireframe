@@ -1,6 +1,12 @@
 import React from 'react'
 
-import './index.scss'
+import Logo from '../../img/logo-footer.svg'
+import Instagram from '../../img/instagram.svg'
+import Linkedin from '../../img/linkedin.svg'
+import Youtube from '../../img/youtube.svg'
+import Boost from '../../img/boost.svg'
+
+import './styles.scss'
 
 const Footer = () => {
   return (
@@ -9,9 +15,7 @@ const Footer = () => {
       
         <div class="s-footer-block-top">
           <div class="s-footer-block-top-area-logo">
-            <a href="./">
-              <img src="./img/logo-footer.svg" alt="Imagem da logo" title="Imagem da logo" />
-            </a>
+            <a href="./"><Logo /></a>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nunc orci, eleifend eu porta eu, viverra.</p>
           </div>
 
@@ -37,24 +41,9 @@ const Footer = () => {
             <div class="social-networks">
               <h3>Nossas redes sociais</h3>
               <ul>
-                <li>
-                  <a href="./">
-                    <img src="./img/instagram.svg" alt="Icone do Instagram" title="Icone do Instagram" />
-                    <span>Instagram</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="./">
-                    <img src="./img/linkedin.svg" alt="Icone do Linkedin" title="Icone do Linkedin" />
-                    <span>Linkedin</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="./">
-                    <img src="./img/youtube.svg" alt="Icone do Youtube" title="Icone do Youtube" />
-                    <span>Youtube</span>
-                  </a>
-                </li>
+                <li><a href="./"><Instagram /><span>Instagram</span></a></li>
+                <li><a href="./"><Linkedin /><span>Linkedin</span></a></li>
+                <li><a href="./"><Youtube /><span>Youtube</span></a></li>
               </ul>
             </div>
           </nav>
@@ -62,10 +51,7 @@ const Footer = () => {
 
         <div class="s-footer-block-bottom">
           <p>2021 &copy; Todos os direitos reservados. <strong>Codeboost</strong></p>
-          <div class="boost">
-            <span>Grupo</span>
-            <img src="./img/boost.svg" alt="Imagem do logo do Boost" title="Imagem do logo do Boost" />
-          </div>
+          <div class="boost"><span>Grupo</span><Boost /></div>
         </div>
       </div>
     </footer>

@@ -4,7 +4,7 @@ import Button from '../Button'
 import Menu from '../Menu'
 
 import Logo from '../../img/logo.svg'
-import './index.scss'
+import './styles.scss'
 
 const Header = () => {
   return (

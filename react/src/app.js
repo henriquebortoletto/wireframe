@@ -2,14 +2,15 @@ import React from 'react'
 
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Main from './components/Main'
 
-import './index.scss'
+import './styles.scss'
 
 const App = () => {
   return (
     <>
       <Header />
-      <h1>Miolo</h1>
+      <Main />
       <Footer />
     </>
   )
