@@ -1,9 +1,18 @@
 import React from 'react'
 
+import Header from './components/Header'
+import Footer from './components/Footer'
+
 import './index.scss'
 
 const App = () => {
-  return <h1>Aplicação com React</h1>
+  return (
+    <>
+      <Header />
+      <h1>Miolo</h1>
+      <Footer />
+    </>
+  )
 }
 
 export default App

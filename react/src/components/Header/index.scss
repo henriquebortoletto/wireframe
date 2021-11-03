@@ -1,0 +1,53 @@
+@import '../../sass/variables';
+@import '../../sass/responsive';
+
+header {
+  width: 100%;
+  background-color: $brand-color-gray-100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8.8rem;
+  }
+
+  nav {
+    display: flex;
+    ul {
+      display: flex;
+      margin-right: 3.2rem;
+
+      li {
+        margin-left: 3.2rem;
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+
+    .btn {
+      padding: 0.9rem 3.4rem;
+    }
+  }
+
+  .menu-mobile {
+    display: none;
+  }
+}
+
+@include device(xl) {
+  header {
+    .menu-mobile {
+      display: block;
+    }
+
+    nav {
+      display: none;
+    }
+  }
+}
