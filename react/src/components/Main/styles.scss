@@ -1,0 +1,60 @@
+@import '../../sass/variables';
+
+.s-main {
+  background-color: $brand-color-gray-900;
+  padding-top: 10.4rem;
+  padding-bottom: 12rem;
+
+  p {
+    color: $brand-color-white;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    h2 {
+      margin-bottom: .8rem;
+    }
+  }
+
+  .info.center {
+    align-items: center;
+  }
+}
+
+.s-main-block-top {
+  border-bottom: .1rem solid rgba(255, 255, 255, .25);
+  padding-bottom: 12.2rem;
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.8rem;
+  }
+}
+
+.s-main-block-bottom {
+  .info-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 11.2rem;
+    margin-bottom: 5.6rem;
+  }
+
+  .gallery-image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.2rem;
+  }
+
+  .image {
+    background-color: $brand-color-gray-800;
+    width: 100%;
+    max-width: 17.6rem;
+    height: 11.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

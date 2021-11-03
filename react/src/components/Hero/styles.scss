@@ -1,4 +1,5 @@
 @import '../../sass/variables';
+@import '../../sass/responsive';
 
 .s-hero {
   padding-top: 7.2rem;
@@ -41,3 +42,33 @@
   }
 }
 
+@include device(xxl) {
+  .s-hero .info {
+    max-width: 50%;
+  }
+}
+
+@include device(xl) {
+  .s-hero {
+    .container {
+      flex-direction: column;
+    }
+
+    .info {
+      max-width: 100%;
+      margin-bottom: 4rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h1,
+      p {
+        text-align: center;
+      }
+    }
+
+    .wallpaper {
+      height: 40rem;
+    }
+  }
+}
