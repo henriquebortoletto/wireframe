@@ -1,0 +1,25 @@
+@import '../../sass/variables';
+@import '../../sass/responsive';
+
+.image {
+  background-color: $brand-color-gray-800;
+  width: 100%;
+  max-width: 17.6rem;
+  height: 11.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@include device(xxl) {
+  .image {
+    width: 23.5%;
+    max-width: 100%;
+  }
+}
+
+@include device(xs) {
+  .image {
+    width: 49%;
+  }
+}

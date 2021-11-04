@@ -1,7 +1,7 @@
 @import '../../sass/variables';
 @import '../../sass/responsive';
 
-header {
+.navigation {
   width: 100%;
   background-color: $brand-color-gray-100;
   position: fixed;
@@ -16,14 +16,16 @@ header {
     height: 8.8rem;
   }
 
-  nav {
+  .nav {
     display: flex;
+
     ul {
       display: flex;
       margin-right: 3.2rem;
 
       li {
         margin-left: 3.2rem;
+
         &:first-child {
           margin-left: 0;
         }
@@ -34,20 +36,10 @@ header {
       padding: 0.9rem 3.4rem;
     }
   }
-
-  .menu-mobile {
-    display: none;
-  }
 }
 
 @include device(xl) {
-  header {
-    .menu-mobile {
-      display: block;
-    }
-
-    nav {
-      display: none;
-    }
+  .navigation .nav {
+    display: none;
   }
 }

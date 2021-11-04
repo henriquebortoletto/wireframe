@@ -130,10 +130,7 @@
   .s-hero,
   .s-main,
   .s-blockquote,
-  footer {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
+  { [...Array(4)].map((_, indice) =>  <li keys={ indice }><a href="./">Text link 0{ indice + 1 }</a></li>) }
 
   .s-hero .info p {
     margin-bottom: 3rem;

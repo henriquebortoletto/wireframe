@@ -3,7 +3,6 @@ import React from 'react'
 import Button from '../Button'
 
 import Logo from '../../img/icon-img-hero.svg'
-
 import './styles.scss'
 
 const Hero = () => {

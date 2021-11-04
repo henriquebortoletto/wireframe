@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Icon from '../../img/icon-circle.svg'
-
 import './styles.scss'
 
 const Card = props => {

@@ -1,13 +1,26 @@
 @import '../../sass/variables';
+@import '../../sass/responsive';
 
 .info {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+
   h2 {
     margin-bottom: .8rem;
   }
+
+  &.center {
+    align-items: center;
+  }
 }
 
-.info.center {
-  align-items: center;
+@include device(md) {
+  .info {
+    align-items: center;
+    
+    p {
+      margin-bottom: 2rem;
+    }
+  }
 }
