@@ -1,0 +1,20 @@
+h1, h2, h3 {
+  font-family: $brand-font-secondary;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: -0.1rem;
+  color: $brand-color-white;
+}
+
+h1 {
+  font-size: 4.8rem;
+  color: $brand-color-gray-900;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}

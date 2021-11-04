@@ -1,0 +1,40 @@
+@import './responsive';
+
+* {
+  font-family: $brand-font-primary;
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+a {
+  background-color: transparent;
+  cursor: pointer;
+  color: $brand-color-black;
+  display: inline-block;
+}
+
+@include device(xs) {
+  html {
+    font-size: 50%;
+  }
+
+  h1 {
+    font-size: 4.2rem;
+  }
+
+}

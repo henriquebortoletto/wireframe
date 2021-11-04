@@ -1,0 +1,28 @@
+@import '../../sass/variables';
+@import '../../sass/responsive';
+
+.menu-item {
+  font-family: $brand-font-secondary;
+  font-size: 1.5rem;
+  line-height: 105%;
+  letter-spacing: -0.001rem;
+  color: $brand-color-gray-500;
+  background-color: $brand-color-gray-200;
+  padding: 1.2rem 2.4rem;
+  transition: all .3s;
+  
+  &:hover {
+    background-color: $brand-color-gray-700;
+    color: $brand-color-white;
+  }
+}
+
+.menu-mobile {
+  display: none;
+}
+
+@include device(xl) {
+  .menu-mobile {
+    display: block;
+  }
+}
