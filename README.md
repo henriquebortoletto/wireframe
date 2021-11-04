@@ -45,5 +45,5 @@ Para instalar e rodar o `react` na raíz do projeto execute os comandos abaixo;
 
 O presente projeto tem como base apenas aprimorar técnicamente e aplicação dos conceitos do `react` em estudo atualmente, o que quer dizer que existe boas práticas no projeto com `react` mas sem aplicação no mesmo.
 
-Email:  <a href="mailto:bortolettohenrique@gmail.com" target="_blank">bortolettohenrique@gmail.com</a>
+Email:  <a href="mailto:bortolettohenrique@gmail.com" target="_blank">bortolettohenrique@gmail.com</a><br />
 Linkedin:  <a href="https://www.linkedin.com/in/henriquebortoletto/" target="_blank">linkedin.com/in/henriquebortoletto/</a>
