@@ -1,7 +1,9 @@
+const path = require('path')
+
 module.exports = {
-  entry: './react/src/index.js',
+  entry: path.resolve(__dirname, 'react/src/index.js'),
   devServer: {
-    static: './react',
+    static: path.resolve(__dirname, 'react'),
   },
   module: {
     rules: [
