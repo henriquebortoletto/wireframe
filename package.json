@@ -2,6 +2,7 @@
   "name": "wireframe",
   "version": "1.0.0",
   "description": "Wireframe project development",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "serve": "webpack serve --mode development --open --hot",
@@ -31,6 +32,7 @@
     "@commitlint/cli": "^13.2.1",
     "@commitlint/config-conventional": "^13.2.0",
     "commitizen": "^4.2.4",
+    "prettier": "2.5.1",
     "webpack": "^5.61.0",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.4.0"
@@ -47,6 +49,7 @@
     "babel-loader": "^8.2.3",
     "css-loader": "^6.5.0",
     "node-sass": "^6.0.1",
+    "path": "^0.12.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-svg-loader": "^3.0.3",
